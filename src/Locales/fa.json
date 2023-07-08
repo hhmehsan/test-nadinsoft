@@ -1,0 +1,29 @@
+{
+    "sidebar":{
+        "dashbord":"داشبورد",
+        "todos":"لیست کارها",
+        "weather":"آب و هوا",
+        "profile":"پروفایل"
+    },
+    "dashbord":{
+        "morning":",صبح بخیر",
+        "afternoon":",بعد از ظهر بخیر",
+        "evening":",عصر بخیر",
+        "night":",شب بخیر"
+    },
+    "profile":{
+        "name":"نام",
+        "locale":"زبان",
+        "theme":"تم",
+        "submit":"ثبت",
+        "english":"انگلیسی",
+        "farsi":"فارسی",
+        "light":"روشن",
+        "dark":"تاریک"
+    },
+    "todo":{
+        "add":"اضافه کردن",
+        "delete":"حذف کردن",
+        "placeholder":"کار جدید را اضافه کن"
+    }
+}
