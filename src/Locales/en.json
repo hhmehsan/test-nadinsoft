@@ -1,0 +1,29 @@
+{
+    "sidebar":{
+        "dashbord":"Dashbord",
+        "todos":"Todos",
+        "weather":"Weather",
+        "profile":"Profile"
+    },
+    "dashbord":{
+        "morning":"Good morning,",
+        "afternoon":"Good afternoon,",
+        "evening":"Good evening,",
+        "night":"Good night,"
+    },
+    "profile":{
+        "name":"Name",
+        "locale":"Locale",
+        "theme":"Theme",
+        "submit":"Submit",
+        "english":"English",
+        "farsi":"Farsi",
+        "light":"Light",
+        "dark":"Dark"
+    },
+    "todo":{
+        "add":"Add",
+        "delete":"Delete",
+        "placeholder":"Add a new todo"
+    }
+}
