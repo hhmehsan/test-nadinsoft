@@ -36,7 +36,7 @@
     setup() {
       const {locale , t} = useI18n()
       const form = ref();
-      const name = ref('');
+      const name = ref(localStorage.getItem('Username'));
       const selectedLocaleOption = ref(locale.value);
       const selectedThemeOption = ref('light');
       const handleSubmit = () => {
