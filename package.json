@@ -5,7 +5,7 @@
   "scripts": {
     "build": "run-p type-check build-only",
     "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
+    "test:e2e": "vue-cli-service test:e2e",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build-only": "vite build",
     "dev": "vite",
@@ -28,6 +28,7 @@
     "@types/jsdom": "^21.1.1",
     "@types/node": "^18.16.17",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli-plugin-e2e-cypress": "~5.0.0",
     "@vue/cli-plugin-unit-mocha": "~5.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
